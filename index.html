@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Woody Gelius</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
   <aside>
@@ -25,5 +26,85 @@
       </ul>
     </div>
   </aside>
+  <main>
+    <!-- ABOUT ME -->
+    <section class="about">
+      <h2>Qui suis-je ?</h2>
+      <p>Je suis un passioné de l'informatique. Je crée des sites web modernes et simples d'utilisation. Je m'exerce fréquemment avec les technologies récentes du milieu et je me documente continuellement sur le sujet. Je m'intéresse aussi beaucoup à la la cybersécurité.</p>
+      <a>Mon blog</a>
+    </section>
+     <!-- PROJECTS -->
+     <section class="projets">
+      <h2>Mes projets</h2>
+      <div class="projets__div">
+        <!-- projet -->
+        <div class="projet">
+          <div class="projet__img-div">
+            <img src="img/projets/spotify.png" alt="spotify web app" id="spotify">
+            <a href="" class="visit">Visiter</a>
+          </div>
+          <div class="projet__detail">
+            <div class="projet_detail-top">
+              <h3>Spotify</h3>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Vanilla JavaScript, Node.js, Express.js, Spotify Web API</p>
+          </div>
+        </div>
+        <!-- projet -->
+        <div class="projet">
+          <div class="projet__img-div">
+            <img src="img/projets/mernblog.png" alt="blog web app" id="mernblog">
+            <a href="" class="visit">Visiter</a>
+          </div>
+          <div class="projet__detail">
+            <div class="projet_detail-top">
+              <h3>Blog</h3>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>MERN stack, redux, tailwindcss, firebase, bcryptjs, jwt</p>
+          </div>
+        </div>
+        <!-- projet -->
+        <div class="projet">
+          <div class="projet__img-div">
+            <img src="img/projets/amazon.png" alt="amazon web app" id="amazon">
+            <a href="https://amazon-clone-gelius24.vercel.app/" target="_blank" class="visit">Visiter</a>
+          </div>
+          <div class="projet__detail">
+            <div class="projet_detail-top">
+              <h3>Amazon</h3>
+              <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Next.js, redux, tailwindcss, firebase, Stripe, FakeStoreAPI</p>
+          </div>
+        </div>
+        <!-- projet -->
+        <div class="projet">
+          <div class="projet__img-div">
+            <img src="img/projets/netflix-project1.png" alt="NETFLIX web app" id="netflix">
+            <a href="https://amazon-clone-gelius24.vercel.app/" target="_blank" class="visit">Visiter</a>
+          </div>
+          <div class="projet__detail">
+            <div class="projet_detail-top">
+              <h3>Netflix</h3>
+              <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Next.js, redux, tailwindcss, firebase, Stripe, FakeStoreAPI</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <form action="">
+      <h2>Contact</h2>
+      <p>N'hésitez pas à me contacter pour tout renseignement. <br>Je consulte mes mails quotidienement.</p>
+      <div class="form__row">
+        <input type="text" placeholder="Nom">
+        <input type="email" placeholder="Email">
+      </div>
+      <textarea name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
+      <button>Envoyer</button>
+    </form>
+  </main>
 </body>
 </html>
