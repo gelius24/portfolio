@@ -34,12 +34,6 @@ aside {
   color: rgb(223, 223, 223);
   font-weight: 200;
   height: 345px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
   font-size: 1.2rem;
   position: relative;
   overflow: hidden;
@@ -60,7 +54,12 @@ aside video {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  text-wrap: nowrap;
   color: #fff;
+}
+
+@media (max-width: 360px) {
+  .aside__content {text-wrap: unset;}
 }
 
 #portrait {
@@ -107,7 +106,7 @@ main {
 /* ================= ABOUT ME ================= */
 
 .about {
-  padding-top: 90px;
+  padding-top: 48px;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -139,7 +138,7 @@ main {
   grid-template-columns: 1fr 1fr;
   justify-items: start;
   column-gap: 46px;
-  row-gap: 36px;
+  row-gap: 70px;
 }
 
 .projet {
