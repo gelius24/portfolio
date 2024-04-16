@@ -95,7 +95,6 @@ aside video {
 
 /* ============================================ */
 main {
-  padding: 80px 50px;
   width: 95%;
   max-width: 864px;
   margin-inline: auto;
@@ -103,7 +102,7 @@ main {
 /* ================= ABOUT ME ================= */
 
 .about {
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
