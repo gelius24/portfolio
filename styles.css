@@ -93,6 +93,11 @@ aside video {
   gap: 20px;
 }
 
+.video-controller {
+  color: lightgray;
+  
+}
+
 /* ============================================ */
 main {
   width: 95%;
@@ -271,7 +276,9 @@ form button:hover {
     transform: unset;
   }
   #name{font-size: 1.2rem;}
-  .aside__footer {display: flex;}
+  .aside__footer {display: flex; width: 100%; left: 0; justify-content: space-between; padding-inline: 40px;}
+
+  .video-controller{pointer:cursor;}
 
   main {
     padding: 0;
