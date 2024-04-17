@@ -288,7 +288,7 @@ form button:hover {
   #name{font-size: 1.2rem;}
   .aside__footer {display: flex; width: 100%; left: 0; justify-content: space-between; padding-inline: 40px;}
 
-  .video-controller{pointer:cursor;}
+  .video-controller{cursor: pointer;}
 
   main {
     padding: 0;
